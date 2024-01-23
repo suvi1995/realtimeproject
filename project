@@ -1,0 +1,44 @@
+first install sonarqube and configure
+configure jenkins
+nodejs
+----
+add nodejs 
+give some name
+version: 
+install automatically
+-----------------
+jdk
+name:
+install:adoptium.net
+verison:jdk17.0.8.1+1
+----------------
+docker
+name:
+install automatically
+download from docker.com
+latest
+---------------
+sonarqubescannr
+name:
+install automatically
+latest
+------------------
+configure the sonarqube        go to jenkins create credential 
+create tocken             
+administartion
+under tocker
+generate tocken
+after creation of sonarqube tocken go to jenkins system >>sonarqube server>> give name and sonaeqube url and sonartocker
+sonarqube dashboard>>quality-gate>>create>> give nmae
+administartion>>configuration>> webbook>> create >> name >>url(http://172.15.42.100:8080/sonar-webbook/
+--------------------
+creat github tocken if nead
+----------------
+docker
+my account>> securty>> access tocken >> givename>> generate
+
+
+
+
+
+ 
